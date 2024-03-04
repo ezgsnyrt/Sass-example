@@ -1,0 +1,167 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 86%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 7% 0 7%;
+} /* Main'e eklemedim burada olduğu için */
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4%;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav__list {
+  width: 18%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  font-size: 18px;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: #496E58;
+}
+
+a:hover {
+  color: #DB7F55;
+}
+
+.introduction__gallery {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery__image {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin-bottom: 4%;
+  border: 3px solid black;
+}
+
+.grid-container-column {
+  display: grid;
+  row-gap: 1rem;
+}
+.grid-container-column .first {
+  grid-template-rows: 17fr 19fr 19fr 22fr;
+}
+.grid-container-column .middle {
+  grid-template-rows: 14fr 17fr 22fr 24fr;
+}
+.grid-container-column .last {
+  grid-template-rows: 14fr 17fr 22fr 24fr;
+}
+.grid-container-column .last-image {
+  vertical-align: bottom;
+}
+.grid-container-column img {
+  width: 100%;
+}
+
+body {
+  font-family: "mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title__bar {
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  display: inline-block;
+  color: #4B4FE9;
+}
+
+.motto {
+  color: #707070;
+  font-style: italic;
+  line-height: 2rem;
+}
+
+.container__introduction {
+  display: flex;
+  justify-content: space-between;
+  line-height: 3rem;
+  margin-bottom: 8%;
+}
+
+.container__introduction-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 1%;
+}
+
+span {
+  display: block;
+}
+
+.container__service {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid #D8D8D8;
+}
+
+.container__service-info {
+  width: 50%;
+  margin-bottom: 4%;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: 2px;
+}
+
+.container__service-list {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  line-height: 2rem;
+  color: #707070;
+}
+
+ul {
+  padding-right: 8%;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 7% 0 7%;
+} /* Main'e eklemedim burada olduğu için */
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 4%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+.nav__list{
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    font-size: 18px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: #496E58;
+}
+
+a:hover {
+    color: #DB7F55;
+}
+

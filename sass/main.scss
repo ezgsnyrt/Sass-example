@@ -1,0 +1,77 @@
+@use 'fonts';
+@import "../node_modules/normalize-scss/sass/normalize";
+@import 'header/_header';
+@import 'gallery';
+
+body {
+    font-family: fonts.$main_font;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title__bar{
+    display: flex;
+    flex-direction: column;
+}
+
+h4{
+    display: inline-block;
+    color: #4B4FE9;
+}
+
+.motto{
+    color: #707070;
+    font-style: italic;
+    line-height: 2rem;
+}
+
+.container__introduction{
+    display: flex;
+    justify-content: space-between;
+    line-height: 3rem;
+    margin-bottom: 8%;
+}
+
+.container__introduction-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 1%;
+}
+
+span{
+    display: block;
+}
+
+.container__service{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    border-bottom:3px solid #D8D8D8;
+}
+
+.container__service-info{
+    width: 50%;
+    margin-bottom: 4%;
+}
+
+h3{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: 2px;
+}
+
+.container__service-list{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    line-height: 2rem;
+    color: #707070;
+}
+
+ul{
+    padding-right: 8%;
+}
