@@ -2,6 +2,7 @@
 @import "../node_modules/normalize-scss/sass/normalize";
 @import 'header/_header';
 @import 'gallery';
+@import 'table';
 @import 'footer/_footer';
 
 body {
@@ -10,6 +11,13 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+.wrapper{
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 7% 0 7%;
+} 
 
 .title__bar{
     display: flex;
@@ -78,55 +86,6 @@ ul{
 }
 
 /* Table info starts here. It will be carried into a new scss file. */
-.table{  
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.table-up, .table-bottom{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding: 1% 0 1% 0;
-}
-
-.table-left{
-    width: 50%;
-}
-
-.table-right{
-    width: 50%;
-}
-
-.table__content-above, .table__content-below{
-    display: flex;
-    justify-content: space-between;
-}
-
-.table-subtitle{
-    font-size:18px;
-}
-
-.content__detail{
-    width: 20%;
-    line-height: 2rem;
-}
-
-.content__name{
-    width: 15%;
-}
-
-.content__date{
-    width: 10%;
-}
-
-.table-up, .table-bottom{
-    border-bottom-style: solid;
-    border-color: #D8D8D8;
-    border-width: 1px; 
-}
 
 
 /* Projects page starts here. It will be carried into a new scss file. */
@@ -192,8 +151,8 @@ ul{
     line-height: 2em;
 }
 
-.box__line p{ // It didn't make the p bold!
-    font-weight: 900;
+.box__line { 
+    font-weight: 700;
 }
 
 // styling image starts here
@@ -226,12 +185,8 @@ ul{
 }
 
 .project__design img{
-    // display: flex;
-    // object-fit: fill; Bunlar etki etmedi görsellere
     width: 100%;
 }
-
-// Footer didn't work in the projects page.
 
 // Contact page starts here
 
@@ -281,24 +236,31 @@ form{
 .text_field{
     position: relative;
     margin-bottom: 4%;
-    // border-style: hidden;
-    // border-top-color: #D8D8D8;
 }
 
 input{
     width: 100%; 
-    // border: none;
+    height: 3vh;
+    border-bottom-color: #E9E9E9;
 }
 
 textarea{
     width: 100%;
+    border-bottom-color: #E9E9E9;
 }
 
-// Couldn't put labels inside text field
-label{
-    position: absolute; 
-    line-height: 2rem;
+input, textarea{
+    border-left:none;
+    border-right: none;
+    border-top: none;
 }
+
+.input__label{
+    position: absolute; 
+}
+
+
+// button starts here
 
 .submit{
     padding: 3% 8%;
