@@ -355,9 +355,9 @@ nav {
 }
 
 body {
-  font-family: "mulish", sans-serif;
   margin: 0;
   padding: 0;
+  font-family: "mulish", sans-serif;
   box-sizing: border-box;
 }
 
@@ -372,16 +372,9 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-h4 {
+.title__bar h4 {
   display: inline-block;
   color: #4B4FE9;
-}
-
-.motto {
-  color: #707070;
-  font-style: italic;
-  line-height: 2rem;
 }
 
 .container__introduction {
@@ -390,12 +383,16 @@ h4 {
   line-height: 3rem;
   margin-bottom: 8%;
 }
-
-.container__introduction-right {
+.container__introduction .container__introduction-quote {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   margin-bottom: 1%;
+}
+.container__introduction .container__introduction-quote p {
+  color: #707070;
+  font-style: italic;
+  line-height: 2rem;
 }
 
 span {
@@ -413,8 +410,7 @@ span {
   width: 50%;
   margin-bottom: 4%;
 }
-
-h3 {
+.container__service-info h3 {
   font-size: 28px;
   font-weight: 700;
   line-height: 3rem;
@@ -429,8 +425,7 @@ h3 {
   line-height: 2rem;
   color: #707070;
 }
-
-ul {
+.container__service-list ul {
   padding-right: 8%;
 }
 
