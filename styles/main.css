@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* In order to run sass, copy "sass --watch sass/main.scss styles/main.css" and paste it to terminal. */
 body {
   margin: 0;
   padding: 0;
@@ -68,7 +69,6 @@ a:hover {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
   margin-bottom: 4%;
-  border: 3px solid black;
 }
 
 .grid-container-column {
@@ -162,6 +162,57 @@ h3 {
 
 ul {
   padding-right: 8%;
+}
+
+/* Table info starts here. It will be carried into a new scss file. */
+.table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-up, .table-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 1% 0 1% 0;
+}
+
+.table-left {
+  width: 50%;
+}
+
+.table-right {
+  width: 50%;
+}
+
+.table__content-above, .table__content-below {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-subtitle {
+  font-size: 18px;
+}
+
+.content__detail {
+  width: 20%;
+  line-height: 2rem;
+}
+
+.content__name {
+  width: 15%;
+}
+
+.content__date {
+  width: 10%;
+}
+
+.table-up, .table-bottom {
+  border-bottom-style: solid;
+  border-color: #D8D8D8;
+  border-width: 1px;
 }
 
 /*# sourceMappingURL=main.css.map */
