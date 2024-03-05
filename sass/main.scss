@@ -196,3 +196,37 @@ ul{
     font-weight: 900;
 }
 
+// styling image starts here
+
+.project__image{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 4%;
+}
+
+.project__image img{
+    width: 100%;
+}
+
+.projects__definition{
+    font-size: 20px;
+    line-height: 2em;
+    margin-bottom: 4%;
+}
+
+// styling image box starts here
+
+.project__design{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 2rem;
+}
+
+.project__design img{
+    display: flex;
+    object-fit: fill;
+    width: 100%;
+}
