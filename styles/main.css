@@ -91,6 +91,52 @@ a:hover {
   width: 100%;
 }
 
+.wrapper {
+  width: 86%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 7% 0 7%;
+}
+
+footer {
+  width: 100%;
+  margin-top: 4%;
+  display: flex;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__list {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.media__list {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.media__list a {
+  font-size: 24px;
+  color: black;
+}
+
+.media__list a:hover {
+  color: turquoise;
+}
+
+.link__list {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+
 body {
   font-family: "mulish", sans-serif;
   margin: 0;
@@ -214,5 +260,7 @@ ul {
   border-color: #D8D8D8;
   border-width: 1px;
 }
+
+/* Footer starts here. It will be carried into a new scss file. */
 
 /*# sourceMappingURL=main.css.map */

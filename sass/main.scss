@@ -2,6 +2,7 @@
 @import "../node_modules/normalize-scss/sass/normalize";
 @import 'header/_header';
 @import 'gallery';
+@import 'footer/_footer';
 
 body {
     font-family: fonts.$main_font;
@@ -126,3 +127,6 @@ ul{
     border-color: #D8D8D8;
     border-width: 1px; 
 }
+
+
+/* Footer starts here. It will be carried into a new scss file. */
