@@ -354,9 +354,80 @@ ul {
 }
 
 .project__design img {
-  display: flex;
-  object-fit: fill;
   width: 100%;
+}
+
+.container__contact {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+
+.container__contact-left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.container__contact-info {
+  width: 40%;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.introduction__box {
+  margin-top: 0;
+}
+
+.container__contact-detail {
+  width: 40%;
+  font-size: 16px;
+  line-height: 2rem;
+}
+
+.container__contact-right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  font-size: 16px;
+}
+
+.text_field {
+  position: relative;
+  margin-bottom: 4%;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+label {
+  position: absolute;
+  line-height: 2rem;
+}
+
+.submit {
+  padding: 3% 8%;
+  background-color: #4B4FE9;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin: 2% 0;
+}
+
+.submit:hover {
+  color: #000;
+  background-color: #04AA6D;
 }
 
 /*# sourceMappingURL=main.css.map */

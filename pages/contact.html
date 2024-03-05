@@ -27,28 +27,28 @@
         <div class="container__contact">
             <div class="container__contact-left">
                 <div class="container__contact-info">
-                    <h2 class="introduction">Full set of great features to make your product fresh</h2>
+                    <p class="introduction__box">Full set of great features to make your product fresh</p>
                 </div>
                 <div class="container__contact-detail">
-                    <p class="contact-detail">Our favorite brands are our friends! We help them to achieve their goals, they help us to stay sharp.</p>
+                    <p class="contact__detail">Our favorite brands are our friends! We help them to achieve their goals, they help us to stay sharp.</p>
                 </div>
             </div>
             <div class="container__contact-right">
                 <form action="https://formsubmit.co/your@email.com" method="POST">
                     <div class="text_field">
-                        <input type="text" name="Name" id="name" required>
-                        <label>Full Name</label>
+                        <label for="name" class="required text_field">Full Name</label>
+                        <input type="text" name="name" id="name" required>
                     </div>
                     <div class="text_field">
-                        <input type="text" name="Email" id="email" required>
-                        <label>Email</label>
+                        <label for="email" class="required text_field">Email</label>
+                        <input type="text" name="email" id="email" required>
                     </div>
                     <div class="text_field">
-                        <textarea placeholder="Message" name="message" required></textarea>
-                        <label>Message</label>
+                        <label for="message" class="required text_field">Message</label>
+                        <textarea name="message" required></textarea>
                     </div>
-                    <div class="button">
-                        <button type="submit">Submit</button>
+                    <div class="contact__button">
+                        <button class="submit">Submit</button>
                     </div>   
                 </form>
             </div>
