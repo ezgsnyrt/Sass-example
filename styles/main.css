@@ -11,37 +11,30 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-
 nav a {
   text-decoration: none;
 }
-
-.logo {
+nav a:link {
+  color: black;
+}
+nav a:visited {
+  color: #496E58;
+}
+nav a:hover {
+  color: #DB7F55;
+}
+nav .logo {
   font-size: 24px;
 }
-
-.nav__list {
+nav .nav__list {
   width: 18%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-li {
+nav .nav__list li {
   list-style: none;
   font-size: 18px;
-}
-
-a:link {
-  color: black;
-}
-
-a:visited {
-  color: #496E58;
-}
-
-a:hover {
-  color: #DB7F55;
 }
 
 .introduction__gallery {
