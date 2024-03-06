@@ -230,30 +230,25 @@ a:hover {
   justify-content: space-between;
   margin-bottom: 4%;
 }
-
 .container__contact-left {
   width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-
 .container__contact-info {
   width: 40%;
   font-size: 40px;
   font-weight: 600;
 }
-
-.introduction__box {
+.container__contact-info .introduction__box {
   margin-top: 0;
 }
-
 .container__contact-detail {
   width: 40%;
   font-size: 16px;
   line-height: 2rem;
 }
-
 .container__contact-right {
   width: 30%;
   display: flex;
@@ -268,26 +263,22 @@ form {
   position: relative;
   margin-bottom: 4%;
 }
-
-input {
+.text_field input {
   width: 100%;
   height: 3vh;
   border-bottom-color: #E9E9E9;
 }
-
-textarea {
+.text_field .input__label {
+  position: absolute;
+}
+.text_field textarea {
   width: 100%;
   border-bottom-color: #E9E9E9;
 }
-
-input, textarea {
+.text_field input, .text_field textarea {
   border-left: none;
   border-right: none;
   border-top: none;
-}
-
-.input__label {
-  position: absolute;
 }
 
 .submit {
@@ -299,7 +290,6 @@ input, textarea {
   font-size: 16px;
   margin: 2% 0;
 }
-
 .submit:hover {
   color: #000;
   background-color: #04AA6D;
@@ -309,8 +299,7 @@ input, textarea {
   width: 100%;
   margin-bottom: 4%;
 }
-
-iframe {
+.contact__map iframe {
   width: 100%;
   height: 60vh;
 }
