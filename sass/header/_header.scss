@@ -35,10 +35,12 @@ nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
-    
-        li{
-            list-style: none;
-            font-size: 18px;
-        }
     } 
 }
+
+li{
+    list-style: none;
+    font-size: 18px;
+}  
+
+// li was not nested with nav__list because of the difference in element name in footer

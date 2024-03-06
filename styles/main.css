@@ -32,7 +32,8 @@ nav .nav__list {
   justify-content: space-between;
   align-items: center;
 }
-nav .nav__list li {
+
+li {
   list-style: none;
   font-size: 18px;
 }
