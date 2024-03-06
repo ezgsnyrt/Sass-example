@@ -10,6 +10,9 @@
     flex-direction: row;
     justify-content: flex-start;
     padding: 1% 0 1% 0;
+    border-bottom-style: solid;
+    border-color: #D8D8D8;
+    border-width: 1px; 
 }
 
 .table-left{
@@ -42,8 +45,3 @@
     width: 10%;
 }
 
-.table-up, .table-bottom{
-    border-bottom-style: solid;
-    border-color: #D8D8D8;
-    border-width: 1px; 
-}
