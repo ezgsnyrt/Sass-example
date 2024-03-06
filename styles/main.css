@@ -43,32 +43,30 @@ nav .nav__list li {
   flex-direction: column;
   align-items: center;
 }
-
-.gallery__image {
+.introduction__gallery .gallery__image {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
   margin-bottom: 4%;
 }
-
-.grid-container-column {
+.introduction__gallery .gallery__image .grid-container-column {
   display: grid;
   row-gap: 1rem;
 }
-.grid-container-column .first {
+.introduction__gallery .gallery__image .grid-container-column .first {
   grid-template-rows: 17fr 19fr 19fr 22fr;
 }
-.grid-container-column .middle {
+.introduction__gallery .gallery__image .grid-container-column .middle {
   grid-template-rows: 14fr 17fr 22fr 24fr;
 }
-.grid-container-column .last {
+.introduction__gallery .gallery__image .grid-container-column .last {
   grid-template-rows: 14fr 17fr 22fr 24fr;
 }
-.grid-container-column .last-image {
+.introduction__gallery .gallery__image .grid-container-column .last-image {
   vertical-align: bottom;
 }
-.grid-container-column img {
+.introduction__gallery .gallery__image .grid-container-column img {
   width: 100%;
 }
 
