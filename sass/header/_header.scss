@@ -1,4 +1,4 @@
-header{
+header {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@ nav {
     display: flex;
     justify-content: space-between;
 
-    & a{
+    & a {
         text-decoration: none;
     }
 
@@ -26,11 +26,11 @@ nav {
             color: #DB7F55;
         }
 
-    .logo{
+    .logo {
         font-size: 24px;
     }
 
-    .nav__list{
+    .nav__list {
         width: 18%;
         display: flex;
         justify-content: space-between;
@@ -38,7 +38,7 @@ nav {
     }
 }
 
-li{
+li {
     list-style: none;
     font-size: 18px;
 }
@@ -47,42 +47,41 @@ li{
 
 
 
-
 /* Responsive Design for Navigation*/
 @media only screen and (min-width:1440px) and (max-width:1800px) {
-    header{
+    header {
         width: 100%;
         margin-bottom: 3%;
     }
 
     nav {
-        .logo{
+        .logo {
             font-size: 30px;
         }
 
-        .nav__list{
+        .nav__list {
             width: 25%;
         }
     }
 
-    li{
+    li {
         list-style: none;
         font-size: 18px;
     }
 }
 
 @media only screen and (min-width:768px) and (max-width:1439px) {
-    header{
+    header {
         margin-bottom: 5%;
     }
 
     nav {
-        .logo{
+        .logo {
             width: 20%;
             font-size: 26px;
         }
 
-        .nav__list{
+        .nav__list {
             width: 32%;
         }
     }
@@ -90,24 +89,24 @@ li{
 
 
 @media only screen and (min-width:320px) and (max-width:767px) {
-    header{
+    header {
         width: 100%;
     }
 
     nav {
         width: 100%;
 
-        .logo{
+        .logo {
             font-size: 20px;
             width: 20%;
         }
 
-        .nav__list{
+        .nav__list {
             width: 57%;
         }
     }
 
-    li{
+    li {
         font-size: 14px;
     }
 }

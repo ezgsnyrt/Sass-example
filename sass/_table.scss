@@ -1,10 +1,10 @@
-.table{
+.table {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.table-up, .table-bottom{
+.table-up, .table-bottom {
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -14,33 +14,33 @@
     border-width: 1px;
 }
 
-.table-left{
+.table-left {
     width: 50%;
 }
 
-.table-right{
+.table-right {
     width: 50%;
 }
 
-.table__content-above, .table__content-below{
+.table__content-above, .table__content-below {
     display: flex;
     justify-content: space-between;
 }
 
-.table-subtitle{
+.table-subtitle {
     font-size: 18px;
 }
 
-.content__detail{
+.content__detail {
     width: 20%;
     line-height: 2rem;
 }
 
-.content__name{
+.content__name {
     width: 15%;
 }
 
-.content__date{
+.content__date {
     width: 10%;
 }
 
@@ -49,7 +49,7 @@
 
 /* Responsive Design for Table*/
 @media only screen and (min-width:1440px) and (max-width:1800px) {
-    .table-subtitle{
+    .table-subtitle {
         font-size: 20px;
     }
 
@@ -89,12 +89,12 @@
 }
 
 @media only screen and (min-width:320px) and (max-width:767px) {
-    .table{
+    .table {
         width: 100%;
         display: flex;
         flex-direction: column;
 
-        .table-up, .table-bottom{
+        .table-up, .table-bottom {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -116,7 +116,7 @@
         }
 
         .table__content-above,
-        .table__content-below{
+        .table__content-below {
             display: flex;
             justify-content: space-between;
 

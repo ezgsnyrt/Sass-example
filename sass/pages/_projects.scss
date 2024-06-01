@@ -1,22 +1,22 @@
-.container__projects{
+.container__projects {
     display: flex;
     flex-direction: column;
 }
 
-.container__initial{
+.container__initial {
     width: 100%;
     display: flex;
     align-items: end;
     margin-bottom: 4%;
 }
 
-.container__initial-left{
+.container__initial-left {
     width: 80%;
 
-    .project__detail{
+    .project__detail {
         width: 40%;
 
-        &__title{
+        &__title {
             font-size: 40px;
             font-weight: 600;
             line-height: 1.5em;
@@ -24,17 +24,17 @@
         }
     }
 
-    .project__info{
+    .project__info {
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items:end;
 
-        &-left{
+        &-left {
             width: 60%;
         }
-            .project__explanation{
+            .project__explanation {
                 font-size: 20px;
                 line-height: 26px;
                 letter-spacing: 1px;
@@ -42,12 +42,12 @@
     }
 }
 
-.container__initial-right{
+.container__initial-right {
     width: 25%;
     display: flex;
     flex-direction: column;
 
-    .project__box{
+    .project__box {
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -65,18 +65,18 @@
 
 // styling image starts here
 
-.project__image{
+.project__image {
     width: 100%;
     display: flex;
     box-sizing: border-box;
     margin-bottom: 4%;
 
-    & img{
+    & img {
         width: 100%;
     }
 }
 
-.projects__definition{
+.projects__definition {
     font-size: 20px;
     line-height: 2em;
     margin-bottom: 4%;
@@ -84,14 +84,14 @@
 
 // styling image box starts here
 
-.project__design{
+.project__design {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 2rem;
 
-    & img{
+    & img {
         width: 100%;
     }
 }
@@ -102,24 +102,24 @@
 // @media only screen and (min-width:1440px) and (max-width:1800px) {}
 
 @media only screen and (min-width:768px) and (max-width:1439px) {
-    .container__initial-left{
-        .project__detail{
+    .container__initial-left {
+        .project__detail {
             width: 70%;
 
-            &__title{
+            &__title {
                 font-size: 34px;
                 line-height: 1.3em;
                 letter-spacing: 1.3px;
             }
         }
 
-        .project__info{
-            &-left{
+        .project__info {
+            &-left {
                 width: 65%;
                 text-align: justify;
             }
 
-            .project__explanation{
+            .project__explanation {
                 font-size: 16px;
                 line-height: 24px;
                 letter-spacing: 1px;
@@ -127,7 +127,7 @@
         }
     }
 
-    .container__initial-right{
+    .container__initial-right {
         width: 40%;
 
         .project__name p {
@@ -149,11 +149,11 @@
 }
 
 @media only screen and (min-width:320px) and (max-width:767px) {
-    .container__initial{
+    .container__initial {
         display: flex;
         flex-direction: column;
 
-        .container__initial-left{
+        .container__initial-left {
             width: 100%;
 
             .project__detail {
@@ -180,19 +180,19 @@
             }
         }
 
-        .container__initial-right{
+        .container__initial-right {
             width: 100%;
         }
     }
 
-    .projects__definition{
+    .projects__definition {
         font-size: 16px;
         line-height: 1.7em;
         margin-bottom: 4%;
         text-align: justify;
     }
 
-    .project__design{
+    .project__design {
         grid-column-gap: 1rem;
     }
 }

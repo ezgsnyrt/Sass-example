@@ -41,7 +41,7 @@ footer {
 /* Responsive Design for Footer */
 
 @media only screen and (min-width:1440px) and (max-width:1800px) {
-    .footer__list{
+    .footer__list {
         width: 40%;
         display: flex;
         justify-content: space-between;
@@ -54,14 +54,14 @@ footer {
             }
         }
 
-        .media__list{
+        .media__list {
             width: 30%;
         }
     }
 }
 
 @media only screen and (min-width:768px) and (max-width:1439px) {
-    .footer__list{
+    .footer__list {
         width: 65%;
         display: flex;
         justify-content: space-between;
@@ -75,7 +75,7 @@ footer {
             }
         }
 
-        .media__list{
+        .media__list {
             width: 20%;
         }
     }
@@ -92,7 +92,7 @@ footer {
             font-size: 18px;
         }
 
-        .footer__list{
+        .footer__list {
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -108,7 +108,7 @@ footer {
                 }
             }
 
-            .media__list{
+            .media__list {
                 width: 30%;
                 padding: 0 3%;
 
@@ -118,11 +118,5 @@ footer {
                 }
             }
         }
-
-
     }
-
-
-
-
 }
