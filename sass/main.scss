@@ -6,6 +6,7 @@
 @import 'pages/projects';
 @import 'pages/contact';
 @import 'footer/_footer';
+@import 'pages/mixins';
 
 body {
     margin: 0;
@@ -19,12 +20,12 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 7% 0 7%;
-} 
+}
 
 .title__bar{
     display: flex;
     flex-direction: column;
-    
+
     h4 {
         display: inline-block;
         color: #4B4FE9;
@@ -36,13 +37,13 @@ body {
     justify-content: space-between;
     line-height: 3rem;
     margin-bottom: 8%;
-    
+
     .container__introduction-quote {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         margin-bottom: 1%;
-    
+
         p {
             color: #707070;
             font-style: italic;
@@ -58,7 +59,7 @@ span{
 .container__service{
     width: 100%;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     border-bottom:3px solid #D8D8D8;
 }
 
