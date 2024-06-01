@@ -10,30 +10,30 @@
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 1rem;
         margin-bottom: 4%;
-    
+
         .grid-container-column {
             display: grid;
             row-gap: 1rem;
-        
+
             .first {
                 grid-template-rows: 17fr 19fr 19fr 22fr;
             }
-            
+
             .middle {
                 grid-template-rows: 14fr 17fr 22fr 24fr;
             }
-        
+
             .last {
                 grid-template-rows: 14fr 17fr 22fr 24fr;
             }
-        
+
             .last-image {
                 vertical-align: bottom;
             }
-        
+
             img {
                 width: 100%;
             }
         }
-    } 
+    }
 }
