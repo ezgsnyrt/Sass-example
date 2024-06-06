@@ -23,6 +23,10 @@ nav a:visited {
 nav a:hover {
   color: #DB7F55;
 }
+nav a:focus {
+  color: white;
+  background: #496E58;
+}
 nav .logo {
   font-size: 24px;
 }

@@ -26,6 +26,11 @@ nav {
             color: #DB7F55;
         }
 
+        a:focus {
+            color: white;
+            background: #496E58;
+        }
+
     .logo {
         font-size: 24px;
     }
@@ -43,6 +48,7 @@ li {
     font-size: 18px;
 }
 // li was not nested with nav__list because of the difference in element name in footer
+
 
 
 
